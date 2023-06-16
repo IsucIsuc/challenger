@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>challenger</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+    <body>
+        <header>
+            <a href="">challenger</a>
+            <button id="refreshCards" onclick="randomCards()">refresh cards</button>
+            <div class="difficultySelectors">
+                <input type="radio" name="diff" id="diffNone" class="difficulty" checked>
+                <label for="diffNone" id="diffNoneSt" class="difficultySt"></label>
+                <input type="radio" name="diff" id="diffEasy" class="difficulty">
+                <label for="diffEasy" id="diffEasySt" class="difficultySt"></label>
+                <input type="radio" name="diff" id="diffMedium" class="difficulty">
+                <label for="diffMedium" id="diffMediumSt" class="difficultySt"></label>
+                <input type="radio" name="diff" id="diffHard" class="difficulty">
+                <label for="diffHard" id="diffHardSt" class="difficultySt"></label>
+            </div>
+            <button id="deleteProgress" onclick="deleteProgress()">Delete Progress</button>
+            <p id="completionist">0/20</p>
+        </header>
+        <section class="mainSection" id="mainSection">
+            <div class="containerer" id="containerer">
+                <div id="1" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : aim</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act1.html" id="a1">Begin</a></button>
+                    </div>
+                </div>
+                <div id="2" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : reaction</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act2.html" id="a2">Begin</a></button>
+                    </div>
+                </div>
+                <div id="3" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : memory</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act3.html" id="a3">Begin</a></button>
+                    </div>
+                </div>
+                <div id="4" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : cps</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act4.html" id="a4">Begin</a></button>
+                    </div>
+                </div>
+                <div id="5" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : aim</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act5.html" id="a5">Begin</a></button>
+                    </div>
+                </div>
+                <div id="6" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : reaction</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act6.html" id="a6">Begin</a></button>
+                    </div>
+                </div>
+                <div id="7" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : memory</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act7.html" id="a7">Begin</a></button>
+                    </div>
+                </div>
+                <div id="8" class="diff-easy activityContainer">
+                    <div class="top">
+                        <h2>test : cps</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act8.html" id="a8">Begin</a></button>
+                    </div>
+                </div>
+                <div id="9" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : aim</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act9.html" id="a9">Begin</a></button>
+                    </div>
+                </div>
+                <div id="10" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : reaction</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act10.html" id="a10">Begin</a></button>
+                    </div>
+                </div>
+                <div id="11" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : memory</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act11.html" id="a11">Begin</a></button>
+                    </div>
+                </div>
+                <div id="12" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : cps</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act12.html" id="a12">Begin</a></button>
+                    </div>
+                </div>
+                <div id="13" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : aim</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act13.html" id="a13">Begin</a></button>
+                    </div>
+                </div>
+                <div id="14" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : reaction</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act14.html" id="a14">Begin</a></button>
+                    </div>
+                </div>
+                <div id="15" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : memory</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act15.html" id="a15">Begin</a></button>
+                    </div>
+                </div>
+                <div id="16" class="diff-medium activityContainer">
+                    <div class="top">
+                        <h2>test : cps</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act16.html" id="a16">Begin</a></button>
+                    </div>
+                </div>
+                <div id="17" class="diff-hard activityContainer">
+                    <div class="top">
+                        <h2>test : aim</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act17.html" id="a17">Begin</a></button>
+                    </div>
+                </div>
+                <div id="18" class="diff-hard activityContainer">
+                    <div class="top">
+                        <h2>test : reaction</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act18.html" id="a18">Begin</a></button>
+                    </div>
+                </div>
+                <div id="19" class="diff-hard activityContainer">
+                    <div class="top">
+                        <h2>test : memory</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act19.html" id="a19">Begin</a></button>
+                    </div>
+                </div>
+                <div id="20" class="diff-hard activityContainer">
+                    <div class="top">
+                        <h2>test : cps</h2>
+                    </div>
+                    <div class="bottom">
+                        <button type="submit"><a href="./activities/act20.html" id="a20">Begin</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="./scripts/main.js"></script>
+        <script src="./scripts/memory.js"></script>
+    </body>
+</html>
