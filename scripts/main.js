@@ -50,7 +50,7 @@ function completionist(){
 
 function randomCards(){
     if(None.checked){
-        for(i = 1; i < 21; i++){
+        for(i = 0; i < 20; i++){
             document.getElementById(i).style.display = "none";
         }
         var RNG = [];
