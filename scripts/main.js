@@ -30,7 +30,7 @@ var HardSt = document.getElementById(`diffHardSt`);
 var actj;
 
 function deleteProgress() {
-    for(var j = 1; j < 20; j++){
+    for(var j = 1; j < 21; j++){
         actj = `act${j}`;
         localStorage.removeItem(actj);
     }
