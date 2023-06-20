@@ -53,7 +53,6 @@ z = rngCopy2.pop();
 დ = rngCopy2.pop();
 ე = rngCopy2.pop();
 ვ = rngCopy.pop();
-step1();
 function step1(){
     alert(`your turn`);
     document.getElementById(d).addEventListener('click', fail)
@@ -624,5 +623,5 @@ function fail(){
 function Win(){
     localStorage.setItem(`act19`, `true`);
     alert('you won')
-        location.replace(.././index.html');
+    location.replace('.././index.html');
 }
